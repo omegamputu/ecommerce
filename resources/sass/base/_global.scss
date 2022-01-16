@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 700;
+    color: inherit;
+    margin: 0px 0px 15px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  a {
+    font-weight: 600;
+    color: #212631;
+    text-decoration: none;
+  }
+  a:hover, a:focus{
+    color: #212631;
+    text-decoration: underline;
+    outline: none;
+  }
+  
+  section {
+    padding: 150px 0;
+  }
+  .section .section-title {
+    margin-bottom: 40px;
+}
+.section .section-title h2 {
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+::selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+.navbar-profile
+{
+  position: absolute;
+  top: 0;
+  bottom: 34px;
+}
